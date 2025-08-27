@@ -6,7 +6,10 @@ public class Ex1{
     Scanner input = new Scanner(System.in);
     
     int n1,n2,result;
-    
+
+    System.out.println("Somadora Easy em Java");
+    System.out.println("---------------------------");    
+        
     System.out.print("Por favor digite o primeiro numero: ");
         n1 = input.nextInt();
     System.out.print("Agora digite o segundo: ");
@@ -16,4 +19,5 @@ public class Ex1{
      System.out.println("A soma dos numeros foi: " + result);
     
     }
+
 }
