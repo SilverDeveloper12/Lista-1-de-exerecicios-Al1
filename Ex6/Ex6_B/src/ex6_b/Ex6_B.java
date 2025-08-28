@@ -6,15 +6,16 @@ public class Ex6_B{
     Scanner input = new Scanner(System.in);
     
     float C;
-    double area, pi;
+    double A, B;
     
     System.out.print("Digite o valor do Raio da circunferencia: ");
         C = input.nextFloat();
-    pi = 3.14159;
+    B = 3.14159;
     
-    area = pi *(C*C);
+    A = B *(C*C);
     
-    System.out.println("A area da circunferencia e: " + area);
+    System.out.println("A area da circunferencia e: " + A);
         
     }
+
 }
