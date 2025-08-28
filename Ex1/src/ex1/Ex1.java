@@ -7,7 +7,7 @@ public class Ex1{
     
     int n1,n2,result;
 
-    System.out.println("Somadora Easy em Java");
+    System.out.println("Multiplicadora Easy em Java");
     System.out.println("---------------------------");    
         
     System.out.print("Por favor digite o primeiro numero: ");
@@ -15,9 +15,10 @@ public class Ex1{
     System.out.print("Agora digite o segundo: ");
         n2 = input.nextInt();
      
-     result = n1 + n2;
-     System.out.println("A soma dos numeros foi: " + result);
+     result = n1 * n2;
+     System.out.println("A multiplicação dos numeros foi: " + result);
     
     }
 
 }
+
